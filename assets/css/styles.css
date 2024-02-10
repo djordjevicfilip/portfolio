@@ -1,0 +1,98 @@
+body {
+    background-color: #1a1b26;
+    color: #f9f9f9;
+    font-family: monospace;
+}
+
+.container {
+    max-width: 1000px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+h1 {
+    color: #9372cf;
+}
+
+.project-link {
+    color:#9372cf;
+}
+.navbar ul {
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+}
+
+.navbar ul li {
+    margin-right: 20px;
+}
+
+.navbar a {
+    color: #f9f9f9;
+    font-size:20px;
+    text-decoration:none;
+}
+
+.navbar a:hover{
+    background-color: gray;
+}
+
+.contacts ul {
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+}
+
+.contacts ul li {
+    margin-right: 20px;
+}
+
+.contacts a {
+    color: #f9f9f9;
+    font-size:15px;
+    text-decoration:none;
+}
+
+.contacts a:hover{
+    text-decoration: underline;
+}
+
+.mt-60 {
+    margin-top:60px;
+}
+
+.mt-30 {
+    margin-top:30px;
+}
+
+.container-flex {
+    max-width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: auto;
+    margin-left: auto;
+}
+  
+.left {
+    width:70%;
+}
+
+.right {
+    width: 30%;
+}
+.profile-picture {
+    height: 200px;
+}
+@media (max-width: 768px) {
+    .left, .right {
+        width: 100%;
+    }
+    .profile-picture {
+        width:100%;
+    }
+}
+
+.separator {
+    border-bottom: 2px dashed gray;
+}
+
